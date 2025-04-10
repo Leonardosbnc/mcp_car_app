@@ -17,7 +17,7 @@ def create_carro():
         quilometragem=int(random.random() * 100),
         num_portas=random.choice([2, 3, 4]),
         motorizacao=random.choice(motorizacao),
-        preco=int(random.random() * 1000),
+        preco=int(random.random() * 100000),
     )
     carro_data.create()
 
