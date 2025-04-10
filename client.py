@@ -7,7 +7,7 @@ from mcp.client.stdio import stdio_client
 
 server_params = StdioServerParameters(
     command="mcp",
-    args=["run", "main.py"],
+    args=["run", "server.py"],
     env=None,
 )
 
